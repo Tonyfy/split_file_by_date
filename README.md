@@ -1,2 +1,4 @@
 # split_file_by_date
-将目录下的大量图片，按照拍摄日期进行分类。
+using the exif information of photo,We get the shooting Angle of the picture,and I implement the photos splitting by shooting date,your can choose splitting via year/month/day/hour/minute/second recursively,thus,when your choose splitting by month,you can get the pictures shootted in same month together.
+
+I use this code for gallery photos' file process before photos' cluster.
