@@ -66,9 +66,9 @@
 
 typedef enum {
 	NOT_AVAILABLE = 0,
-	NORMAL = 1,
+	NORMAL = 1,   //normal shooting angle
 	HFLIP = 2,
-	ROT_180 = 3,
+	ROT_180 = 3,   //rotate 180° 
 	VFLIP = 4,
 	TRANSPOSE = 5,
 	ROT_90 = 6,

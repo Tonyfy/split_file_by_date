@@ -12,7 +12,7 @@ struct picture
 {
 	std::array<int, 6> date;
 	std::string filepath;
-	int orien;
+	int orien;   //see getImgOrientation() in exif.h about the shooting angle type;
 	std::string filename;
 };
 

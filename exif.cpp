@@ -2606,7 +2606,7 @@ static void PRINTF(char **ms, const char *fmt, ...) {
     *ms = p;
     va_end(args);
 }
-
+//get the shooting angle of picture
 int getImgOrientation(const char* path)
 {
 	void **ifdArray;
@@ -2649,7 +2649,7 @@ int getImgOrientation(const char* path)
 
 	return Ori;
 }
-
+//get picture shooting date ,then parse by ordered type.
 std::string getImgData(const char* path)
 {
 	// get [DateTimeOriginal] tag value from Exif IFD
